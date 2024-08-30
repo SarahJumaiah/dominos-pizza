@@ -1,0 +1,384 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #006491;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.406);
+
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #006491;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    padding: 10px 5px 10px 5px;
+  margin: 0 15px;
+}
+
+nav ul li:hover {
+    background-color: #012f44;
+  }
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    margin-right: 17%;
+}
+
+.user-actions a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.user-actions .cart-count {
+    background-color: red;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.bottom-nav {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.406);
+}
+
+.bottom-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-nav ul li {
+    margin: 0 15px;
+}
+
+.bottom-nav ul li a {
+    color: #006491;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.order-section {
+    display: flex;
+    background-color: #006491;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 22%;
+}
+
+.order-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.order-buttons button {
+    background-color: rgb(220, 66, 66);
+    color: white;
+    border: none;
+    padding: 15px 70px 15px 70px;
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family:One Dot Condensed Bold, Arial Narrow, Arial, Helvetica, sans-serif;
+
+}
+
+.order-buttons span {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:One Dot Condensed Bold, Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.menu-container h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu-container p {
+    color: #666;
+    font-size: 14px;
+}
+
+.menu-container a {
+    text-decoration: none;
+    color: #0e4f93;
+    font-weight: bold;
+    font-family:One Dot Condensed Bold, Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+.menu-container .menu-item {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.menu-container .menu-item img {
+    width: 130px;
+    height: 60px;
+    margin-right: 40px;
+    border-radius: 4px;
+}
+
+.menu-container .menu-item a {
+    font-size: 18px;
+    color: #0e4f93;
+    font-family:One Dot Condensed Bold, Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+.menu-container .menu-item:hover {
+    background-color: #0072A5;
+}
+
+.menu-container .menu-item a:hover {
+    color: #fff;
+}
+
+.footer-container {
+    background-color: #e0e0e0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    
+}
+
+.footer-links {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.footer-links a {
+    color: #4a4a4a;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+.footer-next{
+    display: flex;
+    justify-content: center;
+    margin-left: 11%;
+}
+
+.footer-icons{
+    margin-top: 2%;
+    margin-right: 15px;
+}
+.footer-icons .icon {
+    color: #0078ae;
+    font-size: 24px;
+    margin-top: 1px ;
+    cursor: pointer;
+}
+
+.footer-icons .icon:hover {
+    color: #b30000;
+}
+
+.footer-halal img {
+    width: 150px;
+    height: 90px;
+    
+}
+
+.footer-apps a {
+    margin: 25px 10px;
+    display: inline-block;
+}
+
+.footer-apps img {
+    width: 150px;
+    height: 40px;
+}
+
+.footer-text {
+    margin-top: 15px;
+    color: #666;
+}
+
+.footer-text p {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 29%;
+}
+
+.offers-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: PizzaPressInline;
+    color: #fff;
+    font-family:One Dot Condensed Bold, Arial Narrow, Arial, Helvetica, sans-serif;
+    font-weight: 850;
+}
+
+.offers-container h1 {
+    font-size: 24px;
+    color: #006491;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 850;
+    
+}
+
+.offer-code-section,
+.national-offers-section,
+.local-offers-section {
+    margin-bottom: 30px;
+}
+
+.offer-code-section h2,
+.national-offers-section h2,
+.local-offers-section h2 {
+    background-color: #006491;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 5px;
+    letter-spacing: 0.02mm;
+    font-weight: 850;
+}
+
+.offer-code-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background : url('https://cache.dominos.com/olo/6.140.3/assets/build/images/bkg/bkg-cardboard.jpg');
+    padding: 15px;
+    border: 3px solid #0078ae;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+
+.offer-code-input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.offer-code-input button {
+    margin-left: 15px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 850;
+}
+
+.offer-code-input button:hover {
+    background-color: #980303;
+}
+
+.offer-banner {
+    position: relative;
+    margin: 20px 0;
+}
+
+.offer-banner img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.local-offers-section p {
+    margin: 20px 0;
+    padding: 15px 15px 80px 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background : url('https://cache.dominos.com/olo/6.140.3/assets/build/images/bkg/bkg-cardboard.jpg');
+    padding: 15px;
+    border: 3px solid #0078ae;
+    border-radius: 5px;
+    color: #006491;
+    font-weight: 700;   
+   }
+
+.local-offers-section button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 850;
+    margin-left: 70%;
+}
+
+.local-offers-section button:hover {
+    background-color: #970202;
+}
