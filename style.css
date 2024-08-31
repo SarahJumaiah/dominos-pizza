@@ -114,16 +114,17 @@ nav ul li a {
     color: white;
     padding: 20px;
     text-align: center;
-    width: 800px;
+    width: 760px;
     height: 40px;
     border-radius: 10px;
-    margin-top: 2%;
-    margin-left: 22%;
+    margin-top: 10%;
+    margin-left: 23.75%;
+    line-height: 1;
 }
 
 .order-title {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 850;
     margin-top: 5px;
     margin-right: 10px;
 }
@@ -140,6 +141,10 @@ nav ul li a {
     font-weight: bold;
     font-family:One Dot Condensed Bold, Arial Narrow, Arial, Helvetica, sans-serif;
 
+}
+
+.order-buttons button:hover{
+    background-color: #970202;
 }
 
 .order-buttons span {
@@ -160,11 +165,12 @@ nav ul li a {
 .menu-container h1 {
     color: #333;
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 850;
+    line-height: 1;
 }
 
 .menu-container p {
-    color: #666;
+    color: #0078ae;
     font-size: 14px;
 }
 
