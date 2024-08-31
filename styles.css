@@ -203,18 +203,17 @@ nav ul li a {
 /* page orderonline*/
 
 .body2 {
-  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 20%;
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
   display: flex;
   justify-content: left;
   align-items: left;
-  height: 100vh;
 }
 
 .online {
   margin-top: 3%;
-  margin-bottom: 20px;
   margin-left: 20%;
   font-size: 28px;
   font-weight: 800;
