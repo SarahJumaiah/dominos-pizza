@@ -16,24 +16,27 @@ header {
   z-index: 1000;
 }
 
+
+
+/*navvbarr*/
 .top-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 0.6rem 1.25rem;
   background-color: #006491;
 }
 
 .left-section {
   display: flex;
   align-items: center;
-  margin-left: 11%;
+  margin-left: 20%;
 }
 
 .logo img {
-  width: 50px;
+  width: 3rem;
   height: auto;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 nav ul {
@@ -41,11 +44,13 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 nav ul li {
-  padding: 10px 5px 10px 5px;
-  margin: 0 15px;
+  padding: 0.6rem 0.3rem;
+  margin: 0 0.9rem;
 }
 
 nav ul li:hover {
@@ -56,30 +61,34 @@ nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .user-actions {
   display: flex;
   align-items: center;
-  margin-right: 14%;
+  margin-left: 4%;
+  flex: 1;
 }
 
 .user-actions a {
   color: white;
   text-decoration: none;
-  margin-left: 22px;
+  margin-left: 1.3rem;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .user-actions .cart-count {
   background-color: red;
   border-radius: 50%;
-  padding: 2px 6px;
-  margin-left: 3px;
-  font-size: 14px;
+  padding: 0.12rem 0.3rem;
+  margin-left: 0.1rem;
+  font-size: 0.8rem;
 }
+
+
+
 
 /*Order*/
 .order-container {
@@ -133,41 +142,51 @@ nav ul li a {
   margin-left: 19%;
   margin-bottom: 5%;
 }
+
+
+/* footer*/
+
 .footer-container {
   background-color: #e0e0e0;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 14px;
+  padding: 2rem 10%;
+  font-size: 0.9rem;
   color: #333;
 }
 
 .footer-links {
-  margin-top: 40px;
-  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 2.5rem 0;
+  text-align: center;
 }
 
 .footer-links a {
   color: #4a4a4a;
   text-decoration: none;
-  margin: 0 15px;
   font-weight: bold;
-  position: relative;
+  margin: 0;
 }
 
 .footer-next {
   display: flex;
   justify-content: center;
-  margin-left: 11%;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
 }
 
 .footer-icons {
-  margin-top: 2%;
-  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+  align-items: center;
 }
+
 .footer-icons .icon {
   color: #0078ae;
-  font-size: 24px;
-  margin-top: 1px;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
@@ -175,32 +194,55 @@ nav ul li a {
   color: #b30000;
 }
 
+.footer-halal {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
 .footer-halal img {
-  width: 150px;
-  height: 90px;
+  width: 9rem;
+  height: 5rem;
+}
+
+.footer-apps {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  margin: 1rem 0;
 }
 
 .footer-apps a {
-  margin: 25px 10px;
   display: inline-block;
 }
 
 .footer-apps img {
-  width: 150px;
-  height: 40px;
+  width: 9rem;
+  height: 2.5rem;
+  display: block;
 }
 
 .footer-text {
-  margin-top: 15px;
+  margin-top: 1.5rem;
   color: #666;
+  text-align: center;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-text p {
-  text-align: left;
+  text-align: center;
   font-weight: bold;
-  margin-top: 25px;
-  margin-left: 29%;
+  margin-top: 1.5rem;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+
 /* page orderonline*/
 
 .body2 {
